@@ -1,0 +1,54 @@
+<!--service.ejs, Umasangar Ramasamy, 301118867, October 16th 2020-->
+<%- include('partials/header'); %>
+    <style>
+    
+    .showcase .showcase-text {
+        padding: 4rem;
+    }
+
+    .showcase .showcase-img {
+      min-height: 30rem;
+      background-size: cover;
+    }
+    
+    </style>
+    <div class="container text-center"> 
+        <header class="jumbotron">
+            <h1> Services </h1>
+        </header>
+        <section class="showcase">
+          <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://cdn-media-1.freecodecamp.org/images/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg');"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+              <h1>Web Development</h1>
+              <ul style="font-size:20px; padding-top: 10px">
+                <li>Creating new websites for your business</li>
+                <li>Consulations</li>
+                <li>Redesigning existing webistes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row no-gutters; padding-top: 100px;">
+            <div class="col-lg-6 my-auto showcase-text">
+              <h1>Plumbing</h1>
+              <ul style="font-size:20px; padding-top: 10px">
+                <li>Consulations</li>
+                <li>Repairing broken pipes</li>
+                <li>Install plumbing to new home</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://explorethetrades.org/wp-content/uploads/2020/06/plumbing-equipment-1000x667-1.jpg');"></div>
+          </div>
+          <div class="row no-gutters; padding-top: 100px;">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://cdn.mos.cms.futurecdn.net/cQ8A6Sy6vQMJy7gtvCtMK-768-80.jpg');"></div>
+              <h1>Renovating Homes</h1>
+               <ul style="font-size:20px; padding-top: 30px">
+                  <li>Free consulations</li>
+                  <li>Redesigning bedrooms and bathrooms</li>
+                  <li>Installing islands and granite counter tops</li>
+                </ul>
+            </div>
+          </div>
+      </section>
+    </div>
+<%- include('partials/footer'); %>

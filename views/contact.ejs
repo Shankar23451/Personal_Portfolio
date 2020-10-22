@@ -1,0 +1,50 @@
+<!--contact.ejs, Umasangar Ramasamy, 301118867, October 16th 2020-->
+<%- include('partials/header'); %>
+
+<div class="container text-center"> 
+        <header id="image" class="jumbotron">
+            <h1> Contact me </h1>
+            <hr class="divider my-4" />
+                <p class="text-muted mb-5">Ready to start your next project with me? Give me a call or send me an email and I will get back to you as soon as possible!</p>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                    <div>+1 (647) 525-3323</div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                    <div href="umasangar23451@hotmail.com">umasangar23451@hotmail.com</div>
+                </div>
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <i class="fas fa-location-arrow fa-3x mb-3 text-muted"></i>
+                    <div>Toronto, Ontario</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <h1 style="text-align:center;"> Let's talk </h1>
+        <div style="width: 30%; margin:20px auto;">
+            <form action="/landing" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="First name" name="first">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Last name" name="last">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Contact number" name="number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <button class="btn btn-md btn-primary btn-block">Submit </button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+<%- include('partials/footer'); %>
